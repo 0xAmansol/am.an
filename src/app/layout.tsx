@@ -13,13 +13,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Dakshi Goel",
+  title: "Aman Kalal",
   description:
-    "Personal website of Dakshi Goel - Developer building things on the internet",
+    "Personal website of Aman Kalal - Developer building things on the internet",
   generator: "Next.js",
-  applicationName: "Dakshi Goel Portfolio",
+  applicationName: "Aman Kalal Portfolio",
   keywords: [
-    "Dakshi Goel",
+    "Aman Kalal",
     "frontend",
     "backend",
     "AI",
@@ -27,25 +27,25 @@ export const metadata: Metadata = {
     "developer",
     "portfolio",
   ],
-  authors: [{ name: "Dakshi Goel" }],
-  creator: "Dakshi Goel",
-  publisher: "Dakshi Goel",
+  authors: [{ name: "Aman Kalal" }],
+  creator: "Aman Kalal",
+  publisher: "Aman Kalal",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
   openGraph: {
-    title: "Dakshi Goel",
+    title: "Aman Kalal",
     description: "Developer building things on the internet",
-    url: "https://dakshie.xyz/",
-    siteName: "Dakshi Goel",
+    url: "https://am-an.vercel.app/",
+    siteName: "Aman kalal",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Dakshi Goel - Developer",
+        alt: "Aman Kalal - Developer",
       },
     ],
     locale: "en_US",
@@ -53,9 +53,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Dakshi Goel",
+    title: "Aman Kalal",
     description: "Developer building things on the internet",
-    creator: "@duckwhocodes",
+    creator: "@0xAmankalal",
     images: ["/og-image.jpg"],
   },
   icons: {
