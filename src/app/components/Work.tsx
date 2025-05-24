@@ -222,47 +222,33 @@ const Work: React.FC = () => {
   // Work experience data structured in an array
   const workExperiences = [
     {
-      company: "Shieldify",
-      position: "Frontend Engineering Intern",
-      logo: "/companies/shieldify.png",
-      website: "https://shieldify.com/",
+      company: "Accenture",
+      position: "Full Stack Developer Analyst",
+      logo: "/companies/accenture.png",
+      website: "https://accenture.com/",
       description: [
-        "Built customer onboarding dashboard, implemented reporting a chargeback flow.",
-        "Created blogs in marketing website, integrated headless CMS for blog management.",
+        "Developed and deployed a real-time analytics dashboard using React, Node.js, and Azure App Services, improving business decision-making speed by 12% through live KPI visualization and dynamic data querying.",
+        "Led the migration of legacy systems to a cloud-native architecture using Azure SQL Database and Express APIs, reducing infrastructure costs by 30% and enhancing backend scalability and performance.",
+        "Implemented robust serverless workflows and automation using Azure Functions and Logic Apps, streamlining time-sensitive financial reporting processes and boosting operational efficiency by 40%.",
       ],
     },
     {
-      company: "Appwrite",
-      position: "Developer Advocate Intern",
-      logo: "/companies/appwrite.png",
-      website: "https://appwrite.io/",
+      company: "Accenture in Shell",
+      position: "Full Stack Developer Associate",
+      logo: "/companies/Shell.png",
+      website: "https://shell.com/",
       description: [
         <>
-          Contributed to Appwrite&apos;s official documentation on{" "}
+          Built a logistics management panel using React, Redux, and Redux-Saga,
+          reducing delivery delays by 20% through features like order tracking
+          and shipment scheduling.
           <LinkWithTooltip
-            href="https://github.com/appwrite/website/pull/138"
-            text="OAuth integration"
+            href="https://github.com/0xAmansol/manual_data_entry-custom-PI-Vision-symbol"
+            text="Pi Vision symbol dashboard
+            "
           />
         </>,
-        <>
-          Worked on a{" "}
-          <LinkWithTooltip
-            href="https://github.com/appwrite/awesome-appwrite/pull/498"
-            text="full stack website"
-          />{" "}
-          with Appwrite, made a{" "}
-          <LinkWithTooltip
-            href="https://duckshie.notion.site/Building-Jobwrite-A-Smart-Job-Search-Platform-using-React-and-Appwrite-21f98b37c7054af3917df6ef1ff1c522"
-            text="blog"
-          />{" "}
-          and{" "}
-          <LinkWithTooltip
-            href="https://www.youtube.com/watch?v=9z_Rz-13Hm0"
-            text="video"
-          />{" "}
-          tutorial.
-        </>,
-        "Organized developer meetup in Delhi, hands-on session on OAuth2 architecture.",
+        "Organized client meetup in Bangalore, hands-on session on Data integration and architecture.",
       ],
     },
   ];

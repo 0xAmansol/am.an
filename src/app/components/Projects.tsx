@@ -91,42 +91,44 @@ const ProjectItem: React.FC<ProjectProps> = ({
 
 const projects = [
   {
-    title: "RetroUI",
-    link: "https://retroui.io",
-    logo: "/projects/retroui.webp",
-    description: "A pixelated retro-style UI component library for websites.",
-    preview: "/projects/retroui-preview.png",
-  },
-  {
-    title: "Writingpad",
-    link: "https://writingpad.me",
-    logo: "/projects/writingpad.png",
-    description: "Minimal docs with markdown support and no account required.",
-    preview: "/projects/writingpad-preview.mov",
-  },
-  {
-    title: "Wave Rider",
-    link: "https://marketplace.visualstudio.com/items?itemName=dakshie.waverider",
-    logo: "/projects/waverider.png",
+    title: "kreateAI",
+    link: "https://thread-ai-web.vercel.app/",
+    logo: "/projects/kreateAIlogo.png",
     description:
-      "A mini surfing game that one can play in VS Code while coding.",
-    preview: "/projects/waverider-preview.mov",
+      "Transform any video into a blog post, thread, or newsletter in Seconds",
+    preview: "/projects/kreateAI.png",
   },
   {
-    title: "Jobwrite",
-    link: "https://github.com/Dksie09/jobwriteYT",
+    title: "BookList",
+    link: "https://booklist-navy.vercel.app/",
+    logo: "/projects/booklist.png",
+    description:
+      "Discover personalized recommendations, share your thoughts, and find your next great read.",
+    preview: "/projects/booklistPreview.png",
+  },
+  {
+    title: "Cohort NFT minter",
+    link: "https://verify-email-psi.vercel.app/",
+    logo: "/projects/nftMinterLogo.png",
+    description:
+      "Verify your cohort membership to mint your exclusive Solana NFT",
+    preview: "/projects/nftMinterPreview.mp4",
+  },
+  {
+    title: "Task Buddy",
+    link: "https://newtaskbuddy.vercel.app/",
     logo: "/projects/jobwrite.png",
     description:
-      "Smart job search assistant. scans your github and finds jobs for you.",
-    preview: "/projects/jobwrite-preview.gif  ",
+      "Streamline your workflow and track progress effortlessly with our all-in-one task management app.",
+    preview: "/projects/taskBuddy.png  ",
   },
   {
-    title: "Docsy",
-    link: "https://github.com/Dksie09/Docsy",
+    title: "College Rejections (fun project)",
+    link: "#",
     logo: "/projects/docsy.png",
     description:
-      "A smart extension that skims through the documentation for you, and delivers you the exact parts you were looking for.",
-    preview: "/projects/docsy-preview.mp4",
+      "A portal where you can find all the college rejections of your friends and family.",
+    preview: "/projects/collegeRejections.png",
   },
 ];
 

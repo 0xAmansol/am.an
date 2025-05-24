@@ -69,7 +69,7 @@ function Header() {
     <div>
       <div className="flex justify-between items-center p-3 bg-background w-full z-20">
         <div className="flex items-center">
-          <div className="text-base text-[var(--primary)]">Dakshi Goel</div>
+          <div className="text-base text-[var(--primary)]">Aman Kalal</div>
         </div>
 
         <div className="flex items-center gap-4">

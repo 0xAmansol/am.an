@@ -226,7 +226,8 @@ const Hero: React.FC = () => {
   return (
     <div className="py-8 px-4">
       <h1 className="text-3xl font-bold mb-6 text-[var(--foreground)]">
-        hi, i&apos;m dakshi.
+        hi, i&apos;m aman
+        <span className="animate-pulse text-blue-800">.</span>
       </h1>
       <div className="max-w-2xl">
         <p className="mb-4 text-base text-[var(--foreground)]">
@@ -236,7 +237,7 @@ const Hero: React.FC = () => {
         <p className="mb-8 text-base text-[var(--foreground)]">
           <LinkWithTooltip
             text="frontend"
-            description="React, Next.js, Tailwind CSS, TypeScript"
+            description="React, Next.js, TailwindCSS, CSS, Shadcn UI, Framer Motion"
           />
           ,{" "}
           <LinkWithTooltip
@@ -246,10 +247,14 @@ const Hero: React.FC = () => {
           ,{" "}
           <LinkWithTooltip
             text="ai"
-            description="TensorFlow, PyTorch, LangChain, Hugging Face"
+            description="LangChain, Hugging Face , OpenAI, Anthropic , Gemini"
           />
-          , <LinkWithTooltip text="crypto" description="Solana, Rust" /> —
-          whatever gets the job done.
+          ,{" "}
+          <LinkWithTooltip
+            text="database & ORM"
+            description="MongoDB, PostgreSQL,MySql, Prisma, Mongoose , NeonDB , Supabase"
+          />{" "}
+          — whatever it takes.
         </p>
 
         {/* <p className="mb-4 text-base text-[var(--foreground)]">
@@ -264,47 +269,56 @@ const Hero: React.FC = () => {
         </p> */}
 
         <p className="mb-4 text-base text-[var(--foreground)]">
-          was a{" "}
+          am a{" "}
           <LinkWithTooltip
-            text="github octern"
-            description="program for open source contribution and development"
+            text="Full Stack Developer"
+            description="for 3 years now, building scalable web based solutions for clients"
+          />{" "}
+          at{" "}
+          <LinkWithTooltip
+            text="Accenture"
+            description="a global consulting and technology services company"
           />
-          . did devrel at{" "}
+          . contributed at{" "}
           <LinkWithTooltip
-            href="#"
-            text="appwrite"
-            description="an open source Backend as a Service (BaaS) platform"
+            href="https://app.100xdevs.com/"
+            text="100xDevs"
+            description="a cohort of 100xDevs led by Harkirat Singh"
           />
           . <br />
+          Got shortlisted for{" "}
+          <LinkWithTooltip
+            href="https://outlier.ai/"
+            text="OutlierAI"
+            description="train AI models and
+make them smarter, faster and more reliable"
+          />
+          vibe coding hackathon.
+          <br />
           spoke at meetups. wrote docs. shot videos. shipped projects.{" "}
         </p>
 
         <p className="mb-4 text-base text-[var(--foreground)]">
           also vibed with devs at{" "}
           <LinkWithTooltip
-            text="solana fellowship"
+            text="solana summit"
             description={
               <div className="space-y-2">
                 <p>
-                  A 6-week developer program focused on building projects using
-                  Solana blockchain technology.
+                  Solana&apos;s biggest founders & developers summit in
+                  Bangalore.
                 </p>
                 <div className="mt-2 pt-2 border-t border-[var(--tooltip-border)]">
                   <div className="font-medium mb-1">Projects:</div>
                   <ProjectLink
-                    href="https://github.com/Dksie09/mint-cam"
-                    name="mint-cam"
-                    description="image to geo-tagged nft"
+                    href="https://mint-token-one.vercel.app/"
+                    name="orbitToken"
+                    description="Next-gen solana wallet to manage your tokens"
                   />
                   <ProjectLink
-                    href="https://github.com/Dksie09/s6-solana-pay"
-                    name="s6-solana-pay"
+                    href="https://sol-developer-tools.vercel.app/"
+                    name="Solana CookBook"
                     description="online solana store"
-                  />
-                  <ProjectLink
-                    href="https://github.com/Dksie09/cNFT"
-                    name="cNFT"
-                    description="create and airdrop your own cNFT collection"
                   />
                 </div>
               </div>
@@ -318,18 +332,30 @@ const Hero: React.FC = () => {
             SPECIALIZE IN:
           </div>
           <p className="text-base text-[var(--foreground)]">
-            complex dashboards, auth flows.
+            complex dashboards, smooth microinteractions.
             <br />
-            and making websites look like someone cared.
+            and designing websites that look like someone cared.
+            <br />
+            Also, I shitpost like a second job{" "}
+            <a href="https://x.com/0xAmansol" className="underline">
+              here
+            </a>
+            .
           </p>
         </div>
 
         <p className="mb-8 text-base text-[var(--foreground)]">
           off-screen, i play{" "}
           <LinkWithTooltip
-            text="volleyball"
+            text="football"
             description="playing since high school in competitive leagues"
-            imageUrl="/moments/volley.jpeg"
+            imageUrl="/moments/football.jpeg"
+          />{" "}
+          and i lift{" "}
+          <LinkWithTooltip
+            text="weights"
+            description="deadlift PR: 170kgs conventional"
+            imageUrl="/moments/gym.jpeg"
           />
           .
         </p>
@@ -340,26 +366,31 @@ const Hero: React.FC = () => {
           </div>
           <div className="flex flex-wrap">
             <SongLink
-              title="you and i"
-              artist="navyquokka"
-              href="https://www.youtube.com/watch?v=vv4mIdJ4GDI"
+              title="white ferrari"
+              artist="frank ocean"
+              href="https://www.youtube.com/watch?v=Dlz_XHeUUis"
             />
             <SongLink
-              title="blue"
-              artist="yung kai"
-              href="https://www.youtube.com/watch?v=MHCsrKA9gh8"
+              title="9"
+              artist="drake"
+              href="https://www.youtube.com/watch?v=q50SwIodCwg"
+            />
+            <SongLink
+              title="indie"
+              artist="sorted playlist by me"
+              href="https://open.spotify.com/playlist/63iOCWxKqeQYrQP3KYIZ95?si=9f2f33850a234584"
             />
           </div>
         </div>
       </div>
       <div className="flex gap-5 mt-8">
-        <SocialLink href="https://x.com/duckwhocodes" label="X" />
-        <SocialLink href="https://github.com/Dksie09" label="GitHub" />
+        <SocialLink href="https://x.com/0xAmansol" label="X" />
+        <SocialLink href="https://github.com/0xAmansol" label="GitHub" />
         <SocialLink
-          href="https://www.linkedin.com/in/dakshi-goel/"
+          href="https://www.linkedin.com/in/amankalal/"
           label="LinkedIn"
         />
-        <SocialLink href="https://duckwhocodes.hashnode.dev/" label="Blog" />
+        <SocialLink href="https://notsoaman.hashnode.dev/" label="Blog" />
       </div>
     </div>
   );

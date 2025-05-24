@@ -166,8 +166,8 @@ function Band({
   // First cast to unknown, then to CustomGLTFResult to avoid TypeScript casting errors
   const gltf = useGLTF(
     process.env.NODE_ENV === "development"
-      ? "http://localhost:3000/Dakshie.glb"
-      : "https://dakshie.xyz/Dakshie.glb"
+      ? "http://localhost:3000/Aman.glb"
+      : "https://dakshie.xyz/Aman.glb"
   );
   const { nodes, materials } = gltf as unknown as CustomGLTFResult;
 

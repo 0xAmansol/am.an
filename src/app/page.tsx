@@ -9,6 +9,7 @@ import Projects from "./components/Projects";
 import Work from "./components/Work";
 import Moments from "./components/Moments";
 import ComingSoon from "./components/Newsletter";
+import { Misc } from "./components/Misc";
 
 export default function Home() {
   const [cardHeight, setCardHeight] = useState("100vh");
@@ -94,6 +95,14 @@ export default function Home() {
             id="work"
           >
             <Work />
+          </div>
+          <hr className="border-t relative w-screen left-[50%] right-[50%] -translate-x-[50%] my-8" />
+          <div
+            className="relative min-h-[50vh] w-full z-0"
+            ref={workRef}
+            id="misc"
+          >
+            <Misc />
           </div>
 
           <hr className="border-t relative w-screen left-[50%] right-[50%] -translate-x-[50%] my-8" />

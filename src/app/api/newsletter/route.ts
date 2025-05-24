@@ -9,7 +9,7 @@ export async function POST(req: Request) {
     const { email } = body;
 
     // Get publication ID from environment variables
-    const publicationId = process.env.HASHNODE_PUBLICATION_ID;
+    const publicationId = "6831a7c96f0ee7fcd3dedd9b";
 
     if (!publicationId) {
       console.error("Missing HASHNODE_PUBLICATION_ID environment variable");

@@ -45,54 +45,34 @@ const Moments: React.FC = () => {
 
   const polaroids = [
     {
-      image: "/moments/appwrite-community.jpeg",
-      description: "Appwrite Delhi community",
-      alt: "Appwrite community",
+      image: "/moments/Buildspace.jpeg",
+      description: "Buildspace day0",
+      alt: "Buildspace day0",
     },
     {
-      image: "/moments/avocado-speaker.jpeg",
-      description: "Avo Connect Delhi",
-      alt: "Avocado speaker",
+      image: "/moments/ConsensesHackathon.jpeg",
+      description: "Consenses Hackathon Bengaluru",
+      alt: "Consenses Hackathon",
     },
     {
-      image: "/moments/dinner.png",
-      description: "Team Dinner",
-      alt: "Avocado speaker",
+      image: "/moments/football.jpeg",
+      description: "Football team qualifiers",
+      alt: "Football team qualifiers",
     },
     {
-      image: "/moments/breakpoint.jpeg",
-      description: "Solana Breakpoint - Singapore 2024",
+      image: "/moments/Solanabreakpoint.jpeg",
+      description: "Solana Breakpoint - Bengaluru 2024",
       alt: "Solana Breakpoint",
     },
     {
-      image: "/moments/delhi-meetup.jpeg",
-      description: "Delhi Tech Meetup 2024",
-      alt: "Delhi Tech Meetup",
+      image: "/moments/Solanasummit.jpeg",
+      description: "Solana Summit - Bengaluru 2024",
+      alt: "Solana Summit",
     },
     {
-      image: "/moments/appwrite-coop.png",
-      description: "Appwrite Team❤️",
-      alt: "Appwrite Team",
-    },
-    {
-      image: "/moments/avocado-laptop.jpeg",
-      description: "Avocado Connect - Bennett University",
-      alt: "Delhi Tech Meetup",
-    },
-    {
-      image: "/moments/first-time-speaker.jpeg",
-      description: "Appwrite Developer Meetup - Delhi",
-      alt: "First time speaking",
-    },
-    {
-      image: "/moments/s5-graduate.jpeg",
-      description: "Graduated from Buildspace",
-      alt: "Buildspace graduation",
-    },
-    {
-      image: "/moments/shefi.jpeg",
-      description: "Shefi - Women in Crypto",
-      alt: "SHEfi community",
+      image: "/moments/Solanasummitday2.jpeg",
+      description: "Solana Summit day 2❤️",
+      alt: "Solana Summit day 2",
     },
   ];
 
