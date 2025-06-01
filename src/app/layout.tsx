@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     siteName: "Aman kalal",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
         alt: "Aman Kalal - Developer",
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     title: "Aman Kalal",
     description: "Developer building things on the internet",
     creator: "@0xAmankalal",
-    images: ["/og-image.jpg"],
+    images: ["/og-image.png"],
   },
   icons: {
     icon: [{ url: "/favicon.ico" }],
